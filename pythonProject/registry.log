@@ -1,0 +1,7 @@
+INFO:root:Received from 192.168.1.12:53694 -> 
+INFO:root:Received from 192.168.1.12:53804 -> JOIN ak4 ak4
+INFO:root:Send to 192.168.1.12:53804 -> join-success
+INFO:root:Received from 192.168.1.12:53804 -> JOIN ak4 ak4
+INFO:root:Send to 192.168.1.12:53804 -> join-exist
+INFO:root:Received from 192.168.1.12:53804 -> 
+INFO:root:Received from 192.168.1.12:54087 -> 

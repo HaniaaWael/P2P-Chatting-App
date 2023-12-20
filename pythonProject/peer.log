@@ -1,0 +1,77 @@
+INFO:root:Send to 192.168.1.3:15000 -> JOIN Hania  123
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania  222 5000
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN hania  1233 5000
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 222 5000
+INFO:root:Received from 192.168.1.3 -> login-account-not-exist
+INFO:root:Send to 192.168.1.3:15000 -> JOIN HANIA 123
+INFO:root:Send to 192.168.1.3:15000 -> JOIN Hania 123
+INFO:root:Send to 192.168.1.3:15000 -> JOIN Hania 123
+INFO:root:Send to 192.168.1.3:15000 -> JOIN Hania 123
+INFO:root:Send to 192.168.1.3:15000 -> JOIN Hania 123
+INFO:root:Received from 192.168.1.3 -> join-success
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.3:15000 -> SEARCH Hania
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 122 5000
+INFO:root:Received from 192.168.1.3 -> login-wrong-password
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.3:15000 -> SEARCH Hania
+INFO:root:Received from 192.168.1.3 -> search-success 192.168.1.3:5000
+INFO:root:Send to 192.168.1.3:15000 -> JOIN Hania 345
+INFO:root:Received from 192.168.1.3 -> join-exist
+INFO:root:Send to 192.168.1.3:15000 -> SEARCH Hana
+INFO:root:Received from 192.168.1.3 -> search-user-not-found
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.3:15000 -> LOGOUT Hania
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-account-not-exist
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.3:15000 -> LOGIN Hania 123 5000
+INFO:root:Received from 192.168.1.3 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> JOIN ak ak
+INFO:root:Received from 192.168.1.109 -> join-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGOUT ak
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGOUT ak
+INFO:root:Send to 192.168.1.109:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.109 -> login-success
+INFO:root:Send to 192.168.1.109:15000 -> LOGOUT ak
+INFO:root:Send to 192.168.1.12:15000 -> JOIN  
+INFO:root:Send to 192.168.1.12:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.12 -> login-success
+INFO:root:Send to 192.168.1.12:15000 -> LOGOUT ak
+INFO:root:Send to 192.168.1.12:15000 -> JOIN  
+INFO:root:Send to 192.168.1.12:15000 -> JOIN  
+INFO:root:Send to 192.168.1.12:15000 -> JOIN  
+INFO:root:Send to 192.168.1.12:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.12 -> login-success
+INFO:root:Send to 192.168.1.12:15000 -> JOIN ak8 ak8
+INFO:root:Received from 192.168.1.12 -> join-success
+INFO:root:Send to 192.168.1.12:15000 -> LOGIN ak ak 5000
+INFO:root:Received from 192.168.1.12 -> login-success
+INFO:root:Send to 192.168.1.12:15000 -> JOIN ak4 ak4
+INFO:root:Received from 192.168.1.12 -> join-success
+INFO:root:Send to 192.168.1.12:15000 -> JOIN ak4 ak4
+INFO:root:Received from 192.168.1.12 -> join-exist
